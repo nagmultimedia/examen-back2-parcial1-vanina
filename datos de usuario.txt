@@ -1,0 +1,3 @@
+usuario: user
+pass: 123456 (no temporal)
+rol de realm asignado: user
