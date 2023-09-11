@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a21dc983-f731-44e5-a1de-f17ae89c4b6e" name="Changes" comment="">
+    <list default="true" id="2043a2d9-9eae-4d4e-90cc-cf3a04bb0132" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/ms-gateway/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ms-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/ms-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
@@ -17,10 +20,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ms-gateway" />
   </component>
-  <component name="ProjectId" id="2UMQHDjtv5c6ckLZYb1fArJLWU7" />
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VB6tutLxh6KqQdDFKFYGVIgKqq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -29,20 +56,107 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ms-discovery/src/main/java/com/example/msdiscovery" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ms-users" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\backend vanina proyecto\FINAL\Ejercicio-tp\ms-users" />
+      <recent name="C:\Users\user\Desktop\backend vanina proyecto\FINAL\Ejercicio-tp\ms-subscription-service\src\main\java\com\dh\subscriptionservice\configuration" />
+      <recent name="C:\Users\user\Desktop\backend vanina proyecto\FINAL\Ejercicio-tp\ms-subscription-service\src\main\java\com\dh\subscriptionservice" />
+      <recent name="C:\Users\user\Desktop\backend vanina proyecto\FINAL\Ejercicio-tp\ms-subscription-service" />
+      <recent name="C:\Users\user\Desktop\backend vanina proyecto\FINAL\Ejercicio-tp" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn compile" />
+      <command value="mvn install" />
+      <command value="mvn clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MsUsersApplication">
+    <configuration name="MsBillsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.msbills.MsBillsApplication" />
+      <module name="ms-bills" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.msbills.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsDiscoveryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.msdiscovery.MsDiscoveryApplication" />
+      <module name="ms-discovery" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.msdiscovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.digitalhouse.msgateway.MsGatewayApplication" />
+      <module name="ms-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.digitalhouse.msgateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsUsersApplication" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.msusers.MsUsersApplication" />
+      <module name="ms-users" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ms-subscription-service" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dh.subscriptionservice.SubscriptionServiceApplication" />
+      <module name="ms-subscription-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MsUsersApplication" />
+      <item itemvalue="Application.ms-subscription-service" />
+      <item itemvalue="Application.MsBillsApplication" />
+      <item itemvalue="Application.MsDiscoveryApplication" />
+      <item itemvalue="Application.MsGatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MsBillsApplication" />
+        <item itemvalue="Application.MsGatewayApplication" />
+        <item itemvalue="Application.MsDiscoveryApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a21dc983-f731-44e5-a1de-f17ae89c4b6e" name="Changes" comment="" />
-      <created>1692747329795</created>
+      <changelist id="2043a2d9-9eae-4d4e-90cc-cf3a04bb0132" name="Changes" comment="" />
+      <created>1694297354467</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1692747329795</updated>
+      <updated>1694297354467</updated>
     </task>
     <servers />
   </component>

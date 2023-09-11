@@ -1,5 +1,6 @@
 package com.msbills.models;
 
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,6 +11,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+@Builder
 @Getter
 @Setter
 @NoArgsConstructor
@@ -21,11 +23,8 @@ public class Bill {
     @GeneratedValue(generator = "system-uuid")
     @GenericGenerator(name = "system-uuid", strategy = "uuid2")
     private String idBill;
-
     private String customerBill;
-
     private String productBill;
-
     private Double totalPrice;
 
 }

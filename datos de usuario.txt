@@ -1,3 +1,12 @@
+reino: "DH" (en mayusculas)
+
+Primer parcial:
 usuario: user
 pass: 123456 (no temporal)
 rol de realm asignado: user
+
+Final:
+client: clienteFinal scope userScope opcional mapeado a Groups
+nuevos miembros en Group PROVIDERS :
+usuario1
+usuario2
