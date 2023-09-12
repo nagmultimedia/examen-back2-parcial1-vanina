@@ -448,9 +448,9 @@
   "otpPolicyPeriod": 30,
   "otpPolicyCodeReusable": false,
   "otpSupportedApplications": [
-    "totpAppFreeOTPName",
     "totpAppMicrosoftAuthenticatorName",
-    "totpAppGoogleName"
+    "totpAppGoogleName",
+    "totpAppFreeOTPName"
   ],
   "webAuthnPolicyRpEntityName": "keycloak",
   "webAuthnPolicySignatureAlgorithms": [
@@ -477,22 +477,6 @@
   "webAuthnPolicyPasswordlessAvoidSameAuthenticatorRegister": false,
   "webAuthnPolicyPasswordlessAcceptableAaguids": [],
   "users": [
-    {
-      "id": "02a3745a-0ffd-467c-892f-89ca73bf186b",
-      "createdTimestamp": 1692747777410,
-      "username": "service-account-api-gateway-client",
-      "enabled": true,
-      "totp": false,
-      "emailVerified": false,
-      "serviceAccountClientId": "api-gateway-client",
-      "disableableCredentialTypes": [],
-      "requiredActions": [],
-      "realmRoles": [
-        "default-roles-dh"
-      ],
-      "notBefore": 0,
-      "groups": []
-    },
     {
       "id": "5258c009-909e-401c-9837-181cd67598b5",
       "createdTimestamp": 1694313164701,
@@ -700,7 +684,7 @@
       "standardFlowEnabled": true,
       "implicitFlowEnabled": false,
       "directAccessGrantsEnabled": false,
-      "serviceAccountsEnabled": true,
+      "serviceAccountsEnabled": false,
       "publicClient": false,
       "frontchannelLogout": true,
       "protocol": "openid-connect",
@@ -834,7 +818,7 @@
       "notBefore": 0,
       "bearerOnly": false,
       "consentRequired": false,
-      "standardFlowEnabled": false,
+      "standardFlowEnabled": true,
       "implicitFlowEnabled": false,
       "directAccessGrantsEnabled": false,
       "serviceAccountsEnabled": true,
@@ -905,6 +889,7 @@
       "defaultClientScopes": [
         "web-origins",
         "acr",
+        "userScope",
         "profile",
         "roles",
         "email"
@@ -912,7 +897,6 @@
       "optionalClientScopes": [
         "address",
         "phone",
-        "userScope",
         "offline_access",
         "microprofile-jwt"
       ]
@@ -1552,19 +1536,17 @@
       },
       "protocolMappers": [
         {
-          "id": "f83aa867-b7ae-45bd-9340-dfd53fc95661",
-          "name": "Groups",
+          "id": "1d80621f-f7d3-4dba-9fd1-ca5ff9926907",
+          "name": "Group",
           "protocol": "openid-connect",
-          "protocolMapper": "oidc-usermodel-attribute-mapper",
+          "protocolMapper": "oidc-group-membership-mapper",
           "consentRequired": false,
           "config": {
-            "aggregate.attrs": "false",
-            "userinfo.token.claim": "true",
-            "multivalued": "false",
-            "user.attribute": "Groups",
+            "full.path": "true",
             "id.token.claim": "true",
             "access.token.claim": "true",
-            "claim.name": "Groups"
+            "claim.name": "groups",
+            "userinfo.token.claim": "true"
           }
         }
       ]

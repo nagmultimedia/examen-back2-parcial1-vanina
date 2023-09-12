@@ -8,5 +8,5 @@ rol de realm asignado: user
 Final:
 client: clienteFinal scope userScope opcional mapeado a Groups
 nuevos miembros en Group PROVIDERS :
-usuario1
-usuario2
+usuario1 (pass: 123456)
+usuario2 (pass: 123456)
