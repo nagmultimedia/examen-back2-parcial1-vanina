@@ -42,7 +42,7 @@ public abstract class BillController {
     }
 
     @PostMapping("/register")
-    @PreAuthorize("hasAnyAuthority('SCOPE_userScope')") //PROVIDERS?
+    @PreAuthorize("hasAnyAuthority('GROUP_PROVIDERS')") //userScope?
     public void registerBill(DocumentRequest request){
         service.registerBill(request);
     }
